@@ -22,15 +22,17 @@
         Interaja...
     </div>
     <script>
-        var a = window.document.getElementById('area')
+        var a = Window.document.getElementById('area')
         a.addEventListener('click', clicar)
         a.addEventListener('mouseenter', entar)
         a.addEventListener('mouseout', sair)
         function Clicar(){
             a.innerText= 'Clicou!'
+            a.style.background = 'grey'
         }
         function clicou(){
             a.innerText= 'Entrou!'
+            a.style.background = 'green'
         }
         function sair(){
             a.innerText= 'Saiu!'
