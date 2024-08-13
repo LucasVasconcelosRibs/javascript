@@ -17,12 +17,9 @@ section{
     padding: 15px;
 padding-bottom: 45px;
     width: 500px;
-    height: 220px;
+    height: 30px;
     margin: auto;
     box-shadow: 5px 5px 10px black;
-}
-section#foto{background-image: url(exercicio014/imagens/manha.png);
-   
 }
 footer{text-align: center;
     font-style: italic;
