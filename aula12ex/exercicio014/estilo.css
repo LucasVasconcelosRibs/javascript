@@ -21,6 +21,9 @@ section{
     margin: auto;
     box-shadow: 5px 5px 10px black;
 }
+div {
+    text-align: center;
+}
 footer{text-align: center;
     font-style: italic;
     color: white;
