@@ -15,8 +15,22 @@ img.setAttribute('id', 'foto')
     }
     if (fsex[0].checked) {
         genero = 'Homem'
-        if (idade >=0 && idade < 10 )
-    } if else (fsex[1].checked) {
+    }
+    if (idade >=0 && idade < 10 ){
+        //criança
+        img.setAttribute('src', 'ex015/imagens/pexels-hotaru-1104014.png' )
+        }
+        else if (idade < 21 ){
+        //jovem
+    } 
+    else if (idade < 50) {
+        //idoso
+    }
+    else {
+        //idoso
+    }
+
+    else if (fsex[1].checked) {
         genero = 'Mulher'
 }
 res.style.textAlign = 'center'
