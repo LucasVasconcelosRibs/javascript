@@ -24,7 +24,7 @@ img.setAttribute('id', 'foto')
         //jovem
     } 
     else if (idade < 50) {
-        //idoso
+        //adulto
     }
     else {
         //idoso
